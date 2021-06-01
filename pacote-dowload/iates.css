@@ -1,0 +1,188 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #EBEBEB;
+}
+
+#geral {
+    width: 980px;
+    margin: 0px auto;
+
+}
+
+#topo {
+    background-color: #1A3243;
+    height: 90px;
+    position: relative;
+}
+
+#topo-logo {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 40px;
+    top: 15px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #1BB4E8;
+    font-family: arial;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 18px;
+    color: white;
+    font-family: arial;
+    font-style: italic;
+}
+
+#topo-logo img {
+    float:left;
+}
+
+#topo-logo-texto {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 140px;
+
+}
+
+.menu {
+    overflow: hidden;
+    width: 610px;
+    position: absolute;
+    left: 560px;
+    top:56px;
+}
+
+.menu li{
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    margin-left: 14px; 
+    border-right: 1px solid white; 
+    padding-right: 30px;
+    
+}
+
+ul {
+    list-style: none;
+
+}
+
+.menu ul li:last-child {
+    border-right: 0px;
+}
+
+#rodape {
+    height: 50px;
+    background-color: #EBEBEB;
+    margin-top: 10px;
+}
+
+#rodape p{
+    font-size: 16px;
+    font-family: arial;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#parte2 {
+    overflow: hidden;
+    padding-bottom: 35px;
+}
+
+#parte1fora {
+    height: 495px;
+    background-image: url("barcoprincipal.jpg"); 
+}
+
+#parte2-1 {
+    width: 455px;
+    float: left;
+
+}
+
+#parte2-2 {
+    width: 455px;
+    float:right;
+}
+
+h3{
+    color: white;
+}
+
+#destino{
+    background-color: #1BB4E8;
+}
+
+#frota {
+    background-color: #C6B07F;
+}
+
+.nossafrota {
+    display:flex;
+    top: 50px;
+}
+
+#parte2 {
+    background-color: #ffff;
+}
+
+#parte1dentro {
+    background-color: rgba(0, 0, 0, 0.514);
+    color:white;
+    width:290px;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 48px;
+    padding-top: 17px;
+    position:relative;
+    top:270px;
+    left: 580px
+}
+
+#barco2{
+    padding-right: 10px;
+    float: left;
+}
+
+#luxoepaixao {
+    font-size: 22px;
+    width:280px;
+}
+
+#ferias {
+    width:280px;
+    padding-top:15px;
+}
+
+#tell {
+    color:#C6B07F
+}
+
+h3{
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#parte2-1 {
+    margin-left: 25px;
+}
+
+#frota {
+    margin-right: 25px;
+}
+
+#destinoft, #nossafrota {
+    position: relative;
+    top:45px;
+    padding-left:2px;
+}
